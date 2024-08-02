@@ -1,0 +1,6 @@
+
+.container .box h1{
+    color: var(--product-header--color);
+    font-size: 60px;
+    background-color: var(--button-text-color);
+}

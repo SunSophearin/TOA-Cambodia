@@ -1,0 +1,127 @@
+.container-slidebar{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position:fixed;
+    top: 0;
+    right: -100%;
+    z-index: 3000;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .6s;
+}
+ul.clone-toa{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.clone-toa li.markss{
+    position: relative;
+}
+ul.clone-toa li.markss h2{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+ul.clone-toa li.markss h2 i{
+    cursor: pointer;
+    font-size: 50px;
+}
+ul.clone-toa li.markss h1{
+    width: 100px;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+    padding-block: 20px;
+    color: red;
+    font-family: var(--font-family--Battambang);
+}
+ul.clone-toa li.markss h1 img{
+    height: 60px;
+}
+.container-slidebar .box-slidebar{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.283);  
+}
+.container-slidebar .box-slidebar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.container-slidebar .box-slidebar ul li a{
+    text-align: center;
+    display: block;
+    padding-block: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--product-text--color);
+    font-size: 41px;
+    font-family: var(--font-family--Battambang);
+}
+.container-slidebar .box-slidebar ul:hover>:not(:hover){
+    opacity: .4;
+    transition: .5s;
+}
+.container-slidebar .box-slidebar ul li a:hover{
+    color: var(--product-header--color);
+    scale: 1.3;
+    transition: .5s;
+}
+.informations h1{
+    text-align: center;
+}
+.informations ul.information{
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.informations ul.information li a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+.informations ul.information li a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+}
+
+.open-slide{
+    right: 0;
+}
+@media (min-width: 0px) and (max-width: 575.98px) {
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-slidebar{
+        display: none;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container-slidebar{
+        display: none;
+    }
+
+}
